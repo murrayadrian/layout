@@ -38,9 +38,9 @@ export const Home = () => {
             <header className="App-header">
                 <div className="card-wrapper">
                     <Card title={"Revenue"} amount="5.00" percent={12.3}></Card>
-                    <Card title={"Revenue"} amount="5.00" percent={12.3}></Card>
-                    <Card title={"Revenue"} amount="4.02" percent={12.3}></Card>
-                    <Card title={"Revenue"} amount="5.00" percent={12.3}></Card>
+                    <Card title={"Spending"} amount="2.00" percent={12.3}></Card>
+                    <Card title={"ROI"} amount="14.02" percent={-5.1}></Card>
+                    <Card title={"Estimated"} amount="7.00" percent={3.2}></Card>
                 </div>
             </header>
         </AppWrapper>

@@ -10,7 +10,7 @@ const StyledButton = styled.button`
     font-weight: 500;
     line-height: 21px;
     color: ${props => props.textColor};
-    fontSize: ${props => props.fontSize}
+    font-size: ${props => props.fontSize}
     img {
         margin-right: 8px;
     }

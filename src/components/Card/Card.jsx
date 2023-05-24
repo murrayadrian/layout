@@ -14,7 +14,7 @@ const StyledCard = styled.div`
 
     color: #747475;
     .title {
-        color: #747475;
+        color: ${props => props.titleColor || '#747475'};
         text-align: left;
         font-weight: 700;
         font-size: 14px;
@@ -36,12 +36,13 @@ const StyledCard = styled.div`
     }
 `
 
-export const Card = ({title,amount,content,percent, background, width, height}) => {
+export const Card = ({title,amount,content,percent, background, width, height, titleColor}) => {
     return ( 
     <StyledCard
         background={background}
         width={width}
-        height={height}>
+        height={height}
+        titleColor={titleColor}>
         <div className='title'>{title}</div>
         {amount ?
             <div className="amount-wrapper">

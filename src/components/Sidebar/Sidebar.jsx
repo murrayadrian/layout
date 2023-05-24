@@ -75,6 +75,7 @@ export const Sidebar = () => {
          background="linear-gradient(228.89deg, #5429FF 1.12%, #BBAAFF 100%);"
          width="228px"
          height="220px"
+         titleColor="white"
          >
          </Card>
     </StyledSidebar>
